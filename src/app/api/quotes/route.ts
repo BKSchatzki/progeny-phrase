@@ -32,3 +32,5 @@ export const GET = async () => {
     return new Response("Failed to serve quotes to client.", { status: 500 });
   }
 };
+
+export const revalidate = 0;
